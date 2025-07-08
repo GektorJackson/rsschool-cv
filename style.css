@@ -10,7 +10,8 @@
 }
 
 body {
-    background: darkcyan;
+     background: darkcyan;
+    color: antiquewhite;
 }
 
 .header {
@@ -19,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: antiquewhite;
+    background: darkcyan;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,9 +37,76 @@ body {
 
 .navbar a {
     font-size: 18px;
-    color: rgb(60, 71, 81);
+    color: rgb(46, 68, 92);
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 80px;
+    transition: 0.3s;
     
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.About {
+    height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.about-content {
+    max-width: 600px;
+
+}
+
+.about-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+
+}
+
+.about-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.about-content p {
+    font-size: 16px;
+}
+
+.intro {
+  padding: 60px 20px;
+  background-color: #008B8B;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-content {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.text-block {
+  flex: 1;
+  min-width: 300px;
+  color: #fef6e4;
+}
+
+.photo-block {
+  margin-left: 20%; 
+}
+
+.photo-block img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  
 }
