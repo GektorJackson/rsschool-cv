@@ -10,8 +10,8 @@
 }
 
 body {
-     background: darkcyan;
-    color: antiquewhite;
+     background:rgb(19, 36, 132);
+     color: antiquewhite;
 }
 
 .header {
@@ -20,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: darkcyan;
+    background: rgb(62, 62, 62);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,14 +30,14 @@ body {
 
 .logo {
     font-size: 25px;
-    color: rgb(2, 16, 29);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 600;
 }
 
 .navbar a {
     font-size: 18px;
-    color: rgb(46, 68, 92);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
     margin-left: 80px;
@@ -77,26 +77,6 @@ body {
     font-size: 16px;
 }
 
-.intro {
-  padding: 60px 20px;
-  background-color: #008B8B;
-  display: flex;
-  justify-content: center;
-}
-
-.intro-content {
-  max-width: 1000px;
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  flex-wrap: wrap;
-}
-
-.text-block {
-  flex: 1;
-  min-width: 300px;
-  color: #fef6e4;
-}
 
 .photo-block {
   margin-left: 20%; 
