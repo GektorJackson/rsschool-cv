@@ -10,7 +10,7 @@
 }
 
 body {
-     background:rgb(19, 36, 132);
+     background:rgb(57, 57, 57);
      color: antiquewhite;
 }
 
@@ -20,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: rgb(62, 62, 62);
+    background: rgb(49, 48, 48);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +40,7 @@ body {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: 500;
-    margin-left: 80px;
+    margin-left: 50px;
     transition: 0.3s;
     
 }
