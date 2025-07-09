@@ -9,6 +9,7 @@
     font-family:'Poppins', sans-serif;
 }
 
+
 body {
      background:rgb(57, 57, 57);
      color: antiquewhite;
@@ -49,7 +50,7 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.About {
+.about {
     height: 100vh;
   display: flex;
   align-items: center;
@@ -66,6 +67,7 @@ body {
     font-weight: 700;
 
 }
+
 
 .about-content h3 {
     font-size: 32px;
@@ -89,4 +91,74 @@ body {
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   
+}
+
+.code {
+  width: 100%;
+  margin: 60px 0 0 0;
+
+}
+
+
+.code-content {
+  width: 100%;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 10vw; 
+}
+
+.line span {
+  display: inline-block;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff0d4;
+  margin-right: 30px; 
+  letter-spacing: 10px;
+  white-space: nowrap;
+}
+
+.line .line {
+  height: 2px;
+  background: #fff;
+  opacity: 0.3;
+  flex: 1;
+}
+
+
+.example-code {
+  margin-left: 28rem;
+  margin-top: 80px;
+}
+
+
+.skills-content {
+    margin-top: 80px;
+}
+
+.skills-content pre {
+    margin-left: 35rem;
+    margin-top: 70px;
+    line-height: 300%;
+    font-weight: 700;
+}
+
+
+.education-content {
+    margin-top: 80px;
+}
+
+.education-content pre {
+    margin-left: 35em;
+    margin-top: 70px;
+    line-height: 300%;
+    font-weight: 700;
+}
+
+section pre {
+  margin-left: 10vw;
+  margin-top: 20px;
 }
