@@ -9,10 +9,17 @@
     font-family:'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
-     background:rgb(57, 57, 57);
-     color: antiquewhite;
+    background:rgb(57, 57, 57);
+    color: antiquewhite;
+    overflow-x: hidden;
+    padding-top: 80px;
+    
 }
 
 .header {
@@ -28,6 +35,12 @@ body {
     z-index: 100;
 
 }
+
+section {
+  scroll-margin-top: 100px; 
+}
+
+
 
 .logo {
     font-size: 25px;
@@ -161,4 +174,51 @@ body {
 section pre {
   margin-left: 10vw;
   margin-top: 20px;
+}
+
+.contacts-content {
+    margin-top: 80px;
+}
+
+.contacts-content pre {
+    margin-left: 36em;
+    margin-top: 50px;
+    line-height: 300%;
+    font-weight: 700;
+}
+
+.contacts-content a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contacts-content a:hover {
+  text-decoration: underline; 
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+  padding: 20px;
+  background-color: #333;
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.footer a {
+  color:antiquewhite;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  height: 30px;
+  width: 10%;
 }
